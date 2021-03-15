@@ -37,7 +37,8 @@
      
      docker cp 容器id:/build/dockercompose/docker-compose-Linux-aarch64 /opt `后面就是你将镜像保存到哪个目录`
      
-     
+     sudo chmod +x /usr/local/bin/docker-compose
+
      
   镜像细节
   
