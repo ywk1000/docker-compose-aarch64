@@ -43,8 +43,8 @@
      
      即可完成安装
      
+本人在armbian环境下编译出的镜像如下:
 
-     
   镜像细节
   
   ID	sha256:b89d5eabd3a049dd24a24f9bf04942130946c53351cc512336bc9284138233c2  
@@ -56,3 +56,20 @@
   创建	2021-03-15 19:31:10
   
   构建	Docker 19.03.13 on linux, arm64
+     
+
+在宿主机环境中 可以通过命令 :  
+    
+    docker-compose version
+    
+    查看是否安装了 docker-compose 本人在N1-openwrt-55+o环境下二次编译输出如下:
+    
+    docker-compose version 1.26.2, build unknown
+
+    docker-py version: 4.2.2
+
+    CPython version: 3.8.3
+
+    OpenSSL version: OpenSSL 1.1.1j  16 Feb 2021
+    
+    
