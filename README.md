@@ -7,19 +7,19 @@
 
 三.编译前准备:
 
-首先确保目录存在
+    首先确保目录存在
 
-  mkdir /usr/local/src/docker-compose-aarch64
+     mkdir /usr/local/src/docker-compose-aarch64
   
-  cd /usr/local/src/docker-compose-aarch64
+     cd /usr/local/src/docker-compose-aarch64
   
-  将下载的三个文件都放在 /usr/local/src/docker-compose-aarch64 这个目录里
+     将下载的三个文件都放在 /usr/local/src/docker-compose-aarch64 这个目录里
   
-  接下来要进行本机编译:
+     接下来要进行本机编译:
   
-  docker build . -t docker-compose-aarch64-builder
+     docker build . -t docker-compose-aarch64-builder
   
-  静等编译完成
+     静等编译完成
   
   镜像细节
   
