@@ -21,4 +21,9 @@
   
   静等编译完成
   
-  
+  镜像细节
+  ID	sha256:b89d5eabd3a049dd24a24f9bf04942130946c53351cc512336bc9284138233c2  
+  Parent	sha256:edbe3449410027f06d4f7d5a3dc315d414157b989a0e11fbffdd791dfdf11d1c
+  尺寸	962.8 MB
+  创建	2021-03-15 19:31:10
+  构建	Docker 19.03.13 on linux, arm64
