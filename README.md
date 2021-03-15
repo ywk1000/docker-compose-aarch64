@@ -20,7 +20,25 @@
      docker build . -t docker-compose-aarch64-builder
   
      静等编译完成
-  
+     
+     docker run --rm -it docker-compose-aarch64-builder bash
+     
+     find / -name "docker-compose-Linux-aarch64"
+     
+     /build/dockercompose/docker-compose-Linux-aarch64
+     
+     接下来可以使用ls命令查看编译环境里面的文件
+     
+     cd /build/dockercompose
+     
+     ./docker-compose-Linux-aarch64 --version
+     
+     可以看到docker-compose 的版本号
+     
+     docker cp 容器id:/build/dockercompose/docker-compose-Linux-aarch64 /opt `后面就是你将镜像保存到哪个目录`
+     
+     
+     
   镜像细节
   
   ID	sha256:b89d5eabd3a049dd24a24f9bf04942130946c53351cc512336bc9284138233c2  
